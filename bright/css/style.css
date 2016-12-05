@@ -63,7 +63,13 @@ h4 , div>span{
 	
 }
 @media(max-width:767px){
-    ul{
+   .nav>li>a{
         display:inline;
+    }
+    .nav>li {
+         display:inline;
+    }
+    .width{
+        width: 100%;
     }
 }
