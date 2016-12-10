@@ -62,6 +62,19 @@ h4 , div>span{
 	right:15px;
 
 }
+.pagination1{
+	text-align: center;
+    color:#d42819;
+}
+.pagination>li>a, .pagination>li>span{
+	color:#d42819;
+}
+h5{
+	font-family: 'Aref Ruqaa', serif;
+	color:#d42819;
+	font-weight: bold;
+
+}
 @media(max-width:767px){
 
 	.width{
