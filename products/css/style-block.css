@@ -1,0 +1,132 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #c8cfdc;
+    width: 1360px;
+    margin: 0 auto;
+
+
+}
+
+section{
+   padding: 20px;
+
+}
+.one{
+
+    height: 380px;
+    width: 19%;
+    background-color: #383d68;
+    float: left;
+    margin-right:1%;
+    margin-bottom: 14px;
+
+}
+.two{
+
+    height: 380px;
+    width: 19%;
+    background-color: white;
+    float: left;
+    margin-right:1%;
+}
+.three{
+
+    height: 380px;
+    width: 19%;
+    background-color: white;
+    float: left;
+    margin-right:1%;
+}
+.four{
+
+    height: 380px;
+    width: 19%;
+    background-color: white;
+    float: left;
+    margin-right:1%;
+}
+.five{
+    height: 380px;
+    width: 20%;
+    background-color: white;
+    float: left;
+
+}
+img{
+    width: 80%;
+    margin-top: 55%;
+   margin-left:10% ;
+    height: 96px;
+}
+h2{
+    text-transform: uppercase;
+    color: white;
+    font-size: 1em;
+    font-weight:normal;
+    text-align: center;
+    margin-top: 15%;
+}
+p{
+    text-align: center;
+    color: white;
+    margin-top: 4%;
+    font-size: 0.7em;
+}
+b{
+    text-align: center;
+    color: white;
+    margin-top: 6%;
+    font-size: 1em;
+}
+.price {
+    margin-top: 6%;
+    font-size: 1em;
+    font-weight:600;
+}
+.twoName{
+    color:black;
+
+}
+.twoP{
+    color: #989898;
+}
+.color{
+    color:black;
+}
+.image>img{
+    width: 5%;
+    height: 10%;
+   margin-top: 10%;
+
+}
+.image{
+
+}
+button{
+  margin-right: 12px;
+    margin-left: 48px;
+    background-color: #0089cf;
+    color: white;
+    padding: 1% 4%;
+    border: 2px solid;
+    border-radius: 25px;
+}
+.threeImg{
+    width: 80%;
+    margin-top: 37%;
+    margin-left:10% ;
+    height: 96px;
+}
+.old{
+    color:red;
+    text-decoration:line-through;
+}
+.btnFour{
+    margin-top: 8%;
+    margin-left: 30%;
+}
