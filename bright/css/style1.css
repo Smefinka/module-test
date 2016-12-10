@@ -2,16 +2,16 @@ body{
 	background:url('../image/index.jpg') repeat;
 }
 
-   .logo{
-    position: relative;
-    top: -40px;
+.logo{
+	position: relative;
+	top: -40px;
 
 }
 
 .navbar{
-	height:80px;
+
 	margin-top:100px;
-	
+
 }
 
 li{
@@ -44,14 +44,14 @@ section>div>ul>li>a {
 	text-decoration:none;
 	color:#b8b8b8;
 }
-  section>div>ul>li>a:hover {
-    color: black; /* Цвет ссылки при наведении на нее курсора мыши */  
-    text-decoration: none; /* Добавляем подчеркивание */
-   }
+section>div>ul>li>a:hover {
+	color: black; /* Цвет ссылки при наведении на нее курсора мыши */
+	text-decoration: none; /* Добавляем подчеркивание */
+}
 section>ul>li>a:active{
 	color:red;
-	
-	
+
+
 }
 h4 , div>span{
 	padding-left:10px;
@@ -60,16 +60,19 @@ h4 , div>span{
 	position:relative;
 	top:-50px;
 	right:15px;
-	
+
 }
 @media(max-width:767px){
-   .nav>li>a{
-        display:inline;
-    }
-    .nav>li {
-         display:inline;
-    }
-    .width{
-        width: 100%;
-    }
+
+	.width{
+		width: 100%;
+	}
+	.logo{
+		position: relative;
+		top: 0;
+
+	}
+	h4{
+		padding-left:0;
+	}
 }
