@@ -153,13 +153,14 @@ h3{
     z-index: 1;
     margin-left: 0;
 }
-.image2{
+.oneBlock{
     clear:both;
     width: 39%;
     float:left;
     height: 380px;
     background-color: white;
     margin-right: 1%;
+    overflow: hidden;
 }
 .twoBlock{
     width: 39%;
@@ -174,4 +175,33 @@ h3{
     height: 380px;
     background-color: white;
 
+}
+.imgFloat{
+
+
+
+}
+.text{
+
+
+    float: left;
+}
+.man {
+    float: left;
+    width: 50%;
+    height: auto;
+    margin-top: 0;
+    margin-left: 0;
+    position: relative;
+    top: -10px;
+}
+.green{
+    background-color: #83d78c;
+    padding: 2% 12%;
+    margin-top: 22%;
+}
+.text>h3{
+    margin-left: 40%;
+    margin-top: 50%;
+    text-transform: uppercase;
 }
