@@ -115,7 +115,7 @@ button{
     background-color: #0089cf;
     color: white;
     padding: 1% 4%;
-    border: 2px solid;
+    border: none;
     border-radius: 25px;
 }
 .threeImg{
@@ -183,7 +183,7 @@ h3{
 }
 .text{
 
-
+    width: 50%;
     float: left;
 }
 .man {
@@ -197,11 +197,94 @@ h3{
 }
 .green{
     background-color: #83d78c;
-    padding: 2% 12%;
-    margin-top: 22%;
+    padding: 3px 10px;
+    margin-top: 12%;
+    margin-left: 20px;
 }
 .text>h3{
-    margin-left: 40%;
-    margin-top: 50%;
+
+    margin-left: 12%;
+    margin-top: 20%;
     text-transform: uppercase;
+    font-weight: bold;
+    text-align: left;
 }
+.text>p{
+    color: #989898;
+    margin-left: 12%;
+    text-align: start;
+ }
+.second{
+    line-height: 1.5;
+
+}
+div>.color{
+    color:#333333;
+    margin-top: 10%;
+}
+.twoBlock{
+overflow: hidden;
+}
+
+.twoBlock>img{
+width: 654px;
+    height:255px;
+    margin-top: 0;
+    margin-left: 0;
+    position: relative;
+    left: -20px;
+
+}
+.twoBlock>h3{
+    margin-top: 0;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.twoBlock>p{
+    color: #989898;
+    margin-top: 2%;
+}
+.twoBlock>.color{
+    color: black;
+    margin-top: 4%;
+}
+.gr{
+     padding: 3px 10px;
+     margin-top: 0;
+     margin-left: 0;
+    position: relative;
+    top: -240px;
+    left: 210px;
+    z-index: 1;
+}
+
+.threeBlock{
+    background-color: #333333;
+    color: white;
+
+}
+h5{
+    text-transform: uppercase;
+    font-weight: normal;
+    font-size: 1em;
+    text-align: center;
+    margin-top: 12%;
+}
+.threeBlock>img{
+    width: auto;
+    height: auto;
+    margin: 15% 0  0 26%;
+
+}
+.threeBlock>p {
+    text-align: justify;
+    margin: 2% 20px;
+    font-size: 0.85em;
+    line-height: 1.7;
+
+}
+#last{
+    text-transform: uppercase;
+    margin-top: 30px;
+}
+
