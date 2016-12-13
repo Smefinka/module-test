@@ -41,7 +41,7 @@ li {
     padding:10px 26px;
 border-radius: 25px;
 }
-section{
+.bg{
 
     width: inherit;
 
@@ -72,4 +72,59 @@ h2{
     color:white;
     margin-top: 30px;
   padding-bottom: 80px;
+}
+.about{
+    width: inherit;
+    text-align: center;
+    padding-top: 60px;
+    margin-bottom: 70px;
+}
+.about>h2{
+
+    font-size: 2em;
+    color:#0ebfdd;
+
+}
+.about>p {
+    padding-top: 30px;
+    color: #939597;
+}
+.team{
+    width: inherit;
+    background-color: #0ebfdd;
+
+    text-align: center;
+    padding-top: 64px;
+}
+.team>h2{
+    font-size: 2em;
+    display: block;
+
+}
+figure{
+    width: 16%;
+    float: left;
+    margin-top: 96px;
+    color:white;
+    margin-bottom: 100px;
+}
+figure>img{
+    height: 150px;
+}
+.figureOne{
+    margin-left: 26%;
+}
+.btn2{
+
+    clear: both;
+    padding-bottom: 60px;
+
+}
+.btn2>button{
+    color:white;
+    text-transform: uppercase;
+    padding:10px 26px;
+    border-radius: 25px;
+    border: 1px white solid;
+    background-color:inherit;
 }
