@@ -109,7 +109,7 @@ figure{
     margin-bottom: 100px;
 }
 figure>img{
-    height: 150px;
+    height: 156px;
 }
 .figureOne{
     margin-left: 26%;
@@ -127,4 +127,42 @@ figure>img{
     border-radius: 25px;
     border: 1px white solid;
     background-color:inherit;
+}
+.map{
+    width: inherit;
+    background: url('../img/map.png') no-repeat ;
+    height: 590px;
+
+}
+footer{
+    width: inherit;
+    background-color: #45494d;
+    color: #d7dee4;
+    height: 150px;
+}
+footer>ul{
+
+    padding:33px 0 33px 300px;
+    font-size: 0.8em;
+    float: left;
+}
+footer>div{
+    float: left;
+    width: 300px;
+margin-top: 20px;
+ margin-left: 440px;
+}
+hr{
+    clear: both;
+    text-align: center;
+    width: 820px;
+    background-color: #5a5e62;
+    height: 2px;
+    border: none;
+    margin-left: 305px;
+}
+footer>p{
+    padding-left: 680px;
+    padding-top: 12px;
+    color: #5a5e62;
 }
