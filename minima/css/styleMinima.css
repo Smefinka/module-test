@@ -104,3 +104,61 @@ a>button:hover {
     margin-top: 90px;
     margin-left: 10px;
 }
+.sunt{
+    text-align: center;
+    padding-top: 70px;
+    color: #4d4d4d;
+    margin-bottom: 70px;
+}
+.sunt>h2{
+    padding-top: 70px;
+    padding-bottom: 20px;
+}
+.sunt>p{
+    padding-bottom: 70px;
+}
+.resent{
+    width: 1200px;
+    margin: 0 auto;
+
+}
+.resent>h2{
+    padding-top: 0;
+    text-align: center;
+    color: #4d4d4d;
+    padding-bottom: 80px;
+}
+.resent>div{
+    float:left;
+
+}
+.twoD{
+    margin: 0 54px;
+}
+.threeD{
+    margin-right: 52px;
+}
+.hide{
+    position: relative;
+    background: gray;
+    width: 260px;
+    height: 60px;
+    top: -64px;
+    z-index: 1;
+    padding: 20px 0;
+    display:none;
+
+}
+.hide>h4{
+    color:white;
+    text-align: center;
+    text-transform: capitalize;
+    font-weight: 100;
+}
+div>a:hover{
+    text-decoration: none;
+}
+div>a:hover .hide{
+    display: block;
+
+}
