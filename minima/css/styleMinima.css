@@ -120,6 +120,7 @@ a>button:hover {
 .resent{
     width: 1200px;
     margin: 0 auto;
+    margin-bottom: 360px;
 
 }
 .resent>h2{
@@ -130,7 +131,7 @@ a>button:hover {
 }
 .resent>div{
     float:left;
-
+    position: relative;
 }
 .twoD{
     margin: 0 54px;
@@ -139,13 +140,13 @@ a>button:hover {
     margin-right: 52px;
 }
 .hide{
-    position: relative;
+    position: absolute;
     background: gray;
     width: 260px;
     height: 60px;
-    top: -64px;
+    bottom: 0;
     z-index: 1;
-    padding: 20px 0;
+    padding-top: 20px;
     display:none;
 
 }
@@ -161,4 +162,88 @@ div>a:hover{
 div>a:hover .hide{
     display: block;
 
+}
+.sub{
+    clear: both;
+    width: 1500px;
+    margin: 0 auto;
+    height:365px;
+    background-color: #f5f5f5;
+    text-align: center;
+    color: #4d4d4d;
+}
+.sub>h2{
+    padding-top: 90px;
+
+}
+.sub>p{
+padding-top: 54px;
+    font-size: 1.1em;
+}
+.sub>a>button{
+    text-transform: uppercase;
+   border:1px solid #4d4d4d;
+    border-radius: 25px;
+    background: 0;
+    padding: 16px 42px;
+    margin-top: 42px;
+    color: #4d4d4d;
+}
+
+.media{
+    width: 1200px;
+    margin: 92px auto;
+padding-left: 200px;
+    color: #4d4d4d;
+}
+.media>img{
+    padding-right: 56px;
+}
+.media>.no{
+    padding-right: 0;
+}
+.first{
+    padding-left: 226px;
+}
+footer{
+    width: 1500px;
+    margin: 0 auto;
+    height:365px;
+    background-color: #3b3b3b;
+}
+footer>article{
+    float:left;
+
+}
+footer{
+    padding: 95px 120px;
+    color:white;
+}
+
+footer>article>ul{
+    display:block;
+}
+footer>article>h4{
+    padding-bottom: 36px;
+}
+footer>article>ul>li{
+    padding-bottom: 14px;
+}
+footer>.oneArticle>ul{
+    margin-bottom: 10px;
+}
+.lastLi , .oneArticle>a , article>p>a{
+    color:#727272;
+}
+.oneArticle{
+    margin-right: 100px;
+}
+.twoArticle{
+    margin-right: 218px;
+}
+.threeArticle{
+    margin-right: 138px;
+}
+.lastP{
+    padding-top: 30px;
 }
