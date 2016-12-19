@@ -72,15 +72,44 @@ h1>span{
 .lep2{
     padding-left: 30px;
 }
-.thumbnail{
+.thumbnail1{
     border: 3px solid blueviolet;
     border-radius: 20px;
+}
+.captionP{
+    text-align: justify;
+    text-indent: 1.5em;
 }
 .description{
     padding-top: 20px;
 }
 .description1>.thumbnail{
     height: 390px;
+}
+.our{
+    text-align: center;
+}
+h2{
+    color:blueviolet;
+    padding-bottom: 40px;
+}
+h2>span{
+    padding-top: 20px;
+}
+.pArticle{
+    text-align: center;
+    height: 95px;
+}
+p>span{
+    font-size: 30px;
+    color:blueviolet;
+
+}
+.large{
+    padding: 10px 16px;
+    font-size: 18px;
+    line-height: 1.3333333;
+    border-radius: 6px;
 }
 @media (max-width: 768px){
     .logo{
@@ -134,5 +163,14 @@ h1>span{
     }
     .captionP{
         font-size: 0.8em;
+    }
+    .large{
+        padding: 1px 5px;
+        font-size: 12px;
+        line-height: 1.5;
+        border-radius: 3px;
+    }
+    h4{
+        font-size: 1em;
     }
 }
