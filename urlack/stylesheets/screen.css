@@ -559,10 +559,52 @@ template {
   display: none;
 }
 
-/* line 21, ../sass/_main.scss */
+/* line 26, ../sass/_main.scss */
 header {
   background: url("../img/header.png") no-repeat;
   background-size: 100%;
   height: 700px;
   color: #ffffff;
+}
+/* line 34, ../sass/_main.scss */
+header :nth-child(2) {
+  margin-top: 12px;
+}
+/* line 37, ../sass/_main.scss */
+header button {
+  background-color: transparent;
+  border: none;
+  padding: 4px 20px;
+}
+/* line 42, ../sass/_main.scss */
+header button:hover {
+  border: 2px solid white;
+  -webkit-border-radius: 25px;
+  -moz-border-radius: 25px;
+  -ms-border-radius: 25px;
+  border-radius: 25px;
+}
+/* line 47, ../sass/_main.scss */
+header h2 {
+  padding-top: 118px;
+  text-align: center;
+  font-size: 3em;
+  text-transform: uppercase;
+}
+
+@media screen and (max-width: 767px) {
+  /* line 60, ../sass/_main.scss */
+  header h1 {
+    text-align: center;
+    margin-bottom: 0;
+  }
+  /* line 64, ../sass/_main.scss */
+  header :nth-child(2) {
+    text-align: center;
+  }
+  /* line 67, ../sass/_main.scss */
+  header h2 {
+    padding-top: 20px;
+    font-size: 1.5em;
+  }
 }
