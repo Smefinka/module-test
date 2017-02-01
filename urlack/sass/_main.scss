@@ -1,0 +1,29 @@
+$color: #ffffff;
+
+
+//вложенность
+//ul{
+//  font-size: 10px;
+//  a{
+//    color:$color;
+//      &:hover{
+//        эта ссылка при ховере имеет другие стили(&)
+//      }
+//  }
+//родитель списка & + a ссылка которая в родителе
+//div & + a {
+//  color:orange;
+//}
+//}
+//@extend это наследование свойств
+
+
+header {
+  background: url('../img/header.png') no-repeat ;
+background-size: 100%;
+  height: 700px;
+  color:$color;
+}
+h1{
+
+}
