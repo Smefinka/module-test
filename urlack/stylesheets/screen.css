@@ -569,14 +569,15 @@ header {
 /* line 34, ../sass/_main.scss */
 header :nth-child(2) {
   margin-top: 12px;
+  text-align: right;
 }
-/* line 37, ../sass/_main.scss */
+/* line 38, ../sass/_main.scss */
 header button {
   background-color: transparent;
   border: none;
   padding: 4px 20px;
 }
-/* line 42, ../sass/_main.scss */
+/* line 43, ../sass/_main.scss */
 header button:hover {
   border: 2px solid white;
   -webkit-border-radius: 25px;
@@ -584,7 +585,7 @@ header button:hover {
   -ms-border-radius: 25px;
   border-radius: 25px;
 }
-/* line 47, ../sass/_main.scss */
+/* line 48, ../sass/_main.scss */
 header h2 {
   padding-top: 118px;
   text-align: center;
@@ -593,16 +594,16 @@ header h2 {
 }
 
 @media screen and (max-width: 767px) {
-  /* line 60, ../sass/_main.scss */
+  /* line 61, ../sass/_main.scss */
   header h1 {
     text-align: center;
     margin-bottom: 0;
   }
-  /* line 64, ../sass/_main.scss */
+  /* line 65, ../sass/_main.scss */
   header :nth-child(2) {
     text-align: center;
   }
-  /* line 67, ../sass/_main.scss */
+  /* line 68, ../sass/_main.scss */
   header h2 {
     padding-top: 20px;
     font-size: 1.5em;
