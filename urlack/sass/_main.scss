@@ -1,4 +1,6 @@
 $color: #ffffff;
+$colorBtn:#ff4e50;
+
 @mixin border-radius($radius) {
   -webkit-border-radius: $radius;
   -moz-border-radius: $radius;
@@ -8,8 +10,8 @@ $color: #ffffff;
 
 @mixin buttons{
   padding: 8px 20px;
-  background-color: #ff4e50;
-  border: 2px solid #ff4e50;
+  background-color: $colorBtn;
+  border: 2px solid $colorBtn;
   @include border-radius(25px);
 }
 
@@ -107,7 +109,7 @@ section{
     @extend .image;
     background: url('../img/step2.png') no-repeat;
   }
-  :nth-child(3){
+  div:nth-of-type(3){
     @extend .image;
     background: url('../img/step3.png') no-repeat;
   }

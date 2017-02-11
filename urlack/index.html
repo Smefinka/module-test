@@ -14,7 +14,8 @@
     <div class="row">
         <div class="col-sm-8 col-xs-12"> <h1> <a href="index.html">URLAUBSGLÜCK</a></h1></div>
        <div class="col-sm-4 col-xs-12">
-           <button type="button" >Log in</button>
+           <button type="button" data-toggle="modal" data-target="#login-modal" >Log in</button>
+
            <button type="button" >Sign in</button>
        </div>
         <div class="col-sm-12 col-xs-12">
@@ -32,6 +33,25 @@
 
 </section>
 </header>
+<div class="modal fade" id="login-modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true" style="display: none;">
+    <div class="modal-dialog">
+        <div class="loginmodal-container">
+            <h1>Login to Your Account</h1><br>
+            <form>
+                <input type="text" name="user" placeholder="Username">
+                <input type="password" name="pass" placeholder="Password">
+                <input type="submit" name="login" class="login loginmodal-submit" value="Login">
+            </form>
+
+            <div class="login-help">
+                <a href="#">Register</a> - <a href="#">Forgot Password</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
 <section class="container">
 
 
@@ -39,24 +59,24 @@
     <div class="row images">
         <div class="col-sm-4 col-xs-12 image">
         <div>
-            <img src="img/left.png" class="pull-left">
-<img src="img/right.png" class="pull-right">
+            <a href="#"><img src="img/left.png" class="pull-left"></a>
+            <a href="#"><img src="img/right.png" class="pull-right"></a>
         </div>
             <button class="pull-left">Step 1</button>
             <h4></h4>
         </div>
         <div class="col-sm-4 col-xs-12 ">
             <div>
-                <img src="img/left.png" class="pull-left">
-                <img src="img/right.png" class="pull-right">
+                <a href="#"><img src="img/left.png" class="pull-left"></a>
+                <a href="#"><img src="img/right.png" class="pull-right"></a>
 
             </div>
             <button class="pull-left">Step 2</button>
         </div>
         <div class="col-sm-4 col-xs-12">
             <div>
-                <img src="img/left.png" class="pull-left">
-                <img src="img/right.png" class="pull-right">
+                <a href="#"><img src="img/left.png" class="pull-left"></a>
+                <a href="#"><img src="img/right.png" class="pull-right"></a>
             </div>
             <button class="pull-left"> Step 3</button>
 
@@ -64,7 +84,8 @@
     </div>
 
 </section>
-
+<script src="//ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+<script src="bootstrap/dist/js/bootstrap.js"></script>
 
 </body>
 </html>
