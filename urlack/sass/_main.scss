@@ -6,6 +6,13 @@ $color: #ffffff;
   border-radius: $radius;
 }
 
+@mixin buttons{
+  padding: 8px 20px;
+  background-color: #ff4e50;
+  border: 2px solid #ff4e50;
+  @include border-radius(25px);
+}
+
 //вложенность
 //ul{
 //  font-size: 10px;
@@ -26,10 +33,16 @@ $color: #ffffff;
 header {
   background: url('../img/header.png') no-repeat ;
 background-size: 100%;
-  height: 700px;
+ height: 700px;
   color:$color;
   h1{
-
+    a{
+      color:white;
+      &:hover{
+        color: inherit;
+        text-decoration: none;
+      }
+    }
   }
   :nth-child(2){
     margin-top: 12px;
@@ -51,24 +64,96 @@ background-size: 100%;
     font-size: 3em;
     text-transform: uppercase;
   }
+ div{
+   p{
+     text-align: center;
+     font-size: 1.2em;
+     padding-top: 28px;
+   }
+ }
+ .but{
+   @extend p;
+   button{
+     @include buttons;
+
+
+   }
+  }
+}
+section{
+  h3 {
+    text-align: center;
+    font-size: 1.5em;
+    color: #333333;
+  }
+.images{
+
+  .image {
+    background: url('../img/step1.png') no-repeat;
+
+    height: 400px;
+    padding: 160px 60px;
+
+  }
+  button{
+    @include buttons;
+    padding: 2px 18px;
+    color:white;
+   margin-top: 90px;
+  }
+
+
+  div:nth-of-type(2){
+    @extend .image;
+    background: url('../img/step2.png') no-repeat;
+  }
+  :nth-child(3){
+    @extend .image;
+    background: url('../img/step3.png') no-repeat;
+  }
+}
 }
 
 
 
 
 
+
+
+
 @media screen and  (max-width: 767px) {
- header{ h1{
+ header{
+   height:320px;
+   h1{
   text-align: center;
     margin-bottom: 0;
+   font-size:1em;
   }
   :nth-child(2){
     text-align: center;
   }
   h2{
-    padding-top: 20px;
-    font-size: 1.5em;
+    padding-top: 10px;
+    font-size: 0.8em;
   }
+   div{
+     .size{
+       font-size: 0.5em;
+       padding-top: 10px;
+     }
+   }
+
+     button{
+       font-size: 0.5em;
+
  }
+
+   .but{
+     padding-top: 10px;
+     button{
+       padding: 2px 5px;
+     }
+   }
+  }
 }
 
